@@ -3,11 +3,11 @@ First Species counterpoint generator in JS
 
 ## What
 
-Generate first species counterpoint lines for a given cantus firmus according to the rules in [Fux'][https://en.wikipedia.org/wiki/Johann_Joseph_Fux] [_Gradus ad parnassum_][https://books.wwnorton.com/books/detail.aspx?id=17569].
+Generate first species counterpoint lines for a given cantus firmus according to the rules in [Fux'](https://en.wikipedia.org/wiki/Johann_Joseph_Fux) [_Gradus ad parnassum_](https://books.wwnorton.com/books/detail.aspx?id=17569).
 
 ## History
 
-Counterpoint is a way of writing music for multiple voices in which each part can stand as a tune on its own, while harmonizing with the other voices. It codifies the practice of music from the early Rennaissance. [The ideas are still relevant -][https://www.youtube.com/watch?v=PI631Vq3qn4] (Ray Harmony's Hack Music Theory is great!)
+Counterpoint is a way of writing music for multiple voices in which each part can stand as a tune on its own, while harmonizing with the other voices. It codifies the practice of music from the early Rennaissance. [The ideas are still relevant -](https://www.youtube.com/watch?v=PI631Vq3qn4) (Ray Harmony's Hack Music Theory is great!)
 
 I started learning counterpoint from Johann Joseph Fux's venerable textbook. (That may be like learning Geometry from Euclid's elements, but if it was good enough for Haydn, Mozart and Beethoven, it is good enough for me :) But at the first exercise I got sidetracked by the question of how many possible counterpoints could be written to the cantus firmus which Fux sets his student. I didn't know how to tackle the combinatorics mathematically, so I decided to write a script to generate them. I followed only the hard rules - allowed intervals and motions - not the soft rules designed to make the lines musical and singable - no large skips, try to give the line a nice rising and falling countour.
 
